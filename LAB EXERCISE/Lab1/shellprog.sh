@@ -34,12 +34,11 @@ do
 	echo "	7. Swap Two Number"
 	echo "	8. String Compare"
 	echo "	9. String Length"
-	echo "	10. String Color"
-	echo "	11. Quit"
+	echo "	10. Quit"
 	echo ""
 	read -p "	Please choose the options: " ans
 
-	if [ $ans -eq 11 ]
+	if [ $ans -eq 10 ]
 	then
 		cont=false
 	elif [ $ans -eq 1 ]
@@ -152,16 +151,16 @@ do
                 echo "==========================================================="
                 echo "                  CHECK FILE"
                 echo "                  ~~~~~~~~~~"
-		echo -n "Enter name file to check whether it exist or not: " 
+		echo -n "	Enter name file to check whether it exist or not: " 
 		read filen
 		if [ -e $filen ]
 		then
-			echo "$filen found"
+			echo "	$filen found"
 		else
-			echo "$filen not found"
+			echo "	$filen not found"
 		fi
 		echo ""
-		echo "Press anything to continue! "
+		echo "	Press anything to continue! "
 		read any
 	elif [ $ans -eq 5 ]
 	then
@@ -274,40 +273,40 @@ do
 
 		echo "	Press anything to continue! "
 		read any
-	elif [ $ans -eq 10 ]
-	then	
-		clear
-		echo "==========================================================="
-        echo "			STRING COLOR"
-        echo "			~~~~~~~~~~~~"
-		echo ""
-		echo "	Enter 5 names: "
-		read na1
-		read na2 
-		read na3
-		read na4
-		read na5
+	#elif [ $ans -eq 10 ]
+	#then	
+	#	clear
+	#	echo "==========================================================="
+    #    echo "			STRING COLOR"
+    #    echo "			~~~~~~~~~~~~"
+	#	echo ""
+	#	echo "	Enter 5 names: "
+	#	read na1
+	#	read na2 
+	#	read na3
+	#	read na4
+	#	read na5
 
-		echo ""
-		echo "	Display names in colourful style: "
-		echo "		\033[34m $na1"
-		echo "		\033[35m $na2"
-		echo "		\033[36m $na3"
-		echo "		\033[37m $na4"
-		echo "		\033[38m $na5"
-		echo ""
+	#	echo ""
+	#	echo "	Display names in colourful style: "
+	#	echo "		\033[34m $na1"
+	#	echo "		\033[35m $na2"
+	#	echo "		\033[36m $na3"
+	#	echo "		\033[37m $na4"
+	#	echo "		\033[38m $na5"
+	#	echo ""
 
-		echo "	Display names in colourful highlighter: "
-		echo "		\033[41m $na1"
-		echo "		\033[42m $na2"
-		echo "		\033[43m $na3"
-		echo "		\033[44m $na4"
-		echo "		\033[45m $na5"
+	#	echo "	Display names in colourful highlighter: "
+	#	echo "		\033[41m $na1"
+	#	echo "		\033[42m $na2"
+	#	echo "		\033[43m $na3"
+	#	echo "		\033[44m $na4"
+	#	echo "		\033[45m $na5"
 
-		echo "	\033[0m"
+	#	echo "	\033[0m"
 
-		echo "	Press anything to continue! "
-		read any
+	#	echo "	Press anything to continue! "
+	#	read any
 	else
 		cont=true
 	fi
