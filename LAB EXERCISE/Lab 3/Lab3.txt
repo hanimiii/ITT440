@@ -1,0 +1,22 @@
+Topic		: Socket Programming
+
+Level		: Intermediate
+
+Aim		: To work with file in standalone and Client-Server on C
+
+Objective	: 1. Write Standalone C Program that working with file
+		  2. Write Client-Server C Program that also working with file
+		  3. Work with Encryption
+
+Required	: 1. C Programming
+		  2. Example Code from Internet
+		  3. Putty
+
+Activities	: 1. Group Assignment
+		  2. Search for function in C Programming Language that can work with the file
+		  3. First program is standalone that can read from a file then display into the screen
+
+		  4. Second program must use Client-Server basis that can handle multiple line from the file. This Client-Server must be able to read and write from/to file. Created file must encrypt by any standard encryption.
+		  5. Compile and Run both programs
+		  6. Redo the work with video recording by using phone or screen video capture software
+                  7. Submit your video
