@@ -1,0 +1,8 @@
+This is client send file
+Server will receive this
+Hanif Rizal
+Amirul Hazim
+Amira
+Syuhana
+Nurul
+
